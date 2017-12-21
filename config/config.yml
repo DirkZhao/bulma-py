@@ -1,3 +1,20 @@
 PROD_HOST: anlaiye.com.cn
 TEST_HOST: imcoming.com
 DEV_HOST: imcoming.com.cn
+
+
+#macaca
+local_hostname: 10.0.12.72
+local_port: 3456
+platformName: desktop
+electron: electron
+
+server_url: {
+    'hostname': 'localhost',
+    'port': 3456
+}
+
+desired_caps: {
+    'platformName': 'desktop',
+    'browserName': 'electron'
+}
