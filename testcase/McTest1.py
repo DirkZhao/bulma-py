@@ -34,7 +34,7 @@ class LoginTest(unittest.TestCase):
         for d in datas:
             with self.subTest(data=d):
                 # 点击下拉框
-                self.driver.wait_for_element('Xpath', "/html/body/div[1]/div/form/div[1]/div/div/div[1]/i").click()
+                self.driver.element_('Xpath', "/html/body/div[1]/div/form/div[1]/div/div/div[1]/i").click()
                 self.driver.wait_for(1000)
                 # 选择手机验证码登录
                 self.driver.wait_for_element('Xpath', "/html/body/div[2]/div/div[1]/ul/li[2]").click()
