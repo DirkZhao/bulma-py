@@ -16,7 +16,7 @@ def base_path(base_name):
 
 
 BASE_PATH = base_path('bulma_py')
-CONFIG_FILE = os.path.join(BASE_PATH, 'config', 'test.ini')
+CONFIG_PATH = os.path.join(BASE_PATH, 'config')
 DATA_PATH = os.path.join(BASE_PATH, 'data')
 DRIVER_PATH = os.path.join(BASE_PATH, 'drivers')
 LOG_PATH = os.path.join(BASE_PATH, 'log')

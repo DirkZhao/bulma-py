@@ -1,0 +1,12 @@
+global:
+  app_version: 5.2.0
+  client_type: 1
+  device_id: 83F02D27-7983-447E-87B5-E640B93E3026
+  appplt: iph
+  appid: 1
+  signkey: nK!op4w9lB.alev0
+mysql:
+  host: 121.43.186.253
+  port: 33306
+  username: qa_admin
+  password: ol3WyIJN1vAu
