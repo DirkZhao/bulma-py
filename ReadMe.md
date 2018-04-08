@@ -1,2 +1,1 @@
-# 使用语言*Python3*
-# 参考地址<http://blog.csdn.net/huilan_same>
+# 该项目为使用Macaca框架进行AndroidApp的UI自动化测试
