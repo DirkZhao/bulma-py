@@ -5,8 +5,19 @@ global:
   appplt: iph
   appid: 1
   signkey: nK!op4w9lB.alev0
+
 mysql:
   host: 121.43.186.253
   port: 33306
   username: qa_admin
   password: ol3WyIJN1vAu
+
+server_url:
+  hostname:
+  port:
+
+device_Android:
+  deviceName:
+  app:
+  udid:
+
